@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181BF6021D4D8D4F0004A2FF /* congo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 181BF6011D4D8D4F0004A2FF /* congo.mp4 */; };
+		1865DF211D514B7B0036744E /* bg_media_default@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1865DF141D514B7B0036744E /* bg_media_default@3x.png */; };
+		1865DF221D514B7B0036744E /* full_minimize_btn_hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1865DF151D514B7B0036744E /* full_minimize_btn_hl@2x.png */; };
+		1865DF231D514B7B0036744E /* full_minimize_btn_hl@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1865DF161D514B7B0036744E /* full_minimize_btn_hl@3x.png */; };
+		1865DF241D514B7B0036744E /* full_pause_btn_hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1865DF171D514B7B0036744E /* full_pause_btn_hl@2x.png */; };
+		1865DF251D514B7B0036744E /* full_pause_btn_hl@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1865DF181D514B7B0036744E /* full_pause_btn_hl@3x.png */; };
+		1865DF261D514B7B0036744E /* full_play_btn_hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1865DF191D514B7B0036744E /* full_play_btn_hl@2x.png */; };
+		1865DF271D514B7B0036744E /* full_play_btn_hl@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1865DF1A1D514B7B0036744E /* full_play_btn_hl@3x.png */; };
+		1865DF281D514B7B0036744E /* MaximumTrackImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1865DF1B1D514B7B0036744E /* MaximumTrackImage@2x.png */; };
+		1865DF291D514B7B0036744E /* mini_launchFullScreen_btn_hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1865DF1C1D514B7B0036744E /* mini_launchFullScreen_btn_hl@2x.png */; };
+		1865DF2A1D514B7B0036744E /* mini_launchFullScreen_btn_hl@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1865DF1D1D514B7B0036744E /* mini_launchFullScreen_btn_hl@3x.png */; };
+		1865DF2B1D514B7B0036744E /* MinimumTrackImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1865DF1E1D514B7B0036744E /* MinimumTrackImage@2x.png */; };
+		1865DF2C1D514B7B0036744E /* thumbImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1865DF1F1D514B7B0036744E /* thumbImage@2x.png */; };
+		1865DF2D1D514B7B0036744E /* VideoPlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1865DF201D514B7B0036744E /* VideoPlayView.xib */; };
+		889A02A8E1E1993AFC27174C /* libPods-yg_mediaDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F64D28760AC365924F394C0E /* libPods-yg_mediaDemo.a */; };
+		AD1F948A1D4D045F00F99FA6 /* FullViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1F94861D4D045F00F99FA6 /* FullViewController.m */; };
+		AD1F948B1D4D045F00F99FA6 /* VideoPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1F94881D4D045F00F99FA6 /* VideoPlayView.m */; };
+		DEA9B5D31D1A606F00BDF4EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA9B5D21D1A606F00BDF4EE /* main.m */; };
+		DEA9B5D61D1A606F00BDF4EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA9B5D51D1A606F00BDF4EE /* AppDelegate.m */; };
+		DEA9B5D91D1A606F00BDF4EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA9B5D81D1A606F00BDF4EE /* ViewController.m */; };
+		DEA9B5DC1D1A606F00BDF4EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA9B5DA1D1A606F00BDF4EE /* Main.storyboard */; };
+		DEA9B5DE1D1A606F00BDF4EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA9B5DD1D1A606F00BDF4EE /* Assets.xcassets */; };
+		DEA9B5E11D1A606F00BDF4EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA9B5DF1D1A606F00BDF4EE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F0BB2D5CC3B968609541C57 /* Pods-yg_mediaDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yg_mediaDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yg_mediaDemo/Pods-yg_mediaDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		181BF6011D4D8D4F0004A2FF /* congo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = congo.mp4; sourceTree = "<group>"; };
+		1865DF141D514B7B0036744E /* bg_media_default@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_media_default@3x.png"; sourceTree = "<group>"; };
+		1865DF151D514B7B0036744E /* full_minimize_btn_hl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "full_minimize_btn_hl@2x.png"; sourceTree = "<group>"; };
+		1865DF161D514B7B0036744E /* full_minimize_btn_hl@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "full_minimize_btn_hl@3x.png"; sourceTree = "<group>"; };
+		1865DF171D514B7B0036744E /* full_pause_btn_hl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "full_pause_btn_hl@2x.png"; sourceTree = "<group>"; };
+		1865DF181D514B7B0036744E /* full_pause_btn_hl@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "full_pause_btn_hl@3x.png"; sourceTree = "<group>"; };
+		1865DF191D514B7B0036744E /* full_play_btn_hl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "full_play_btn_hl@2x.png"; sourceTree = "<group>"; };
+		1865DF1A1D514B7B0036744E /* full_play_btn_hl@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "full_play_btn_hl@3x.png"; sourceTree = "<group>"; };
+		1865DF1B1D514B7B0036744E /* MaximumTrackImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MaximumTrackImage@2x.png"; sourceTree = "<group>"; };
+		1865DF1C1D514B7B0036744E /* mini_launchFullScreen_btn_hl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mini_launchFullScreen_btn_hl@2x.png"; sourceTree = "<group>"; };
+		1865DF1D1D514B7B0036744E /* mini_launchFullScreen_btn_hl@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mini_launchFullScreen_btn_hl@3x.png"; sourceTree = "<group>"; };
+		1865DF1E1D514B7B0036744E /* MinimumTrackImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MinimumTrackImage@2x.png"; sourceTree = "<group>"; };
+		1865DF1F1D514B7B0036744E /* thumbImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbImage@2x.png"; sourceTree = "<group>"; };
+		1865DF201D514B7B0036744E /* VideoPlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoPlayView.xib; sourceTree = "<group>"; };
+		AD1F94851D4D045F00F99FA6 /* FullViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullViewController.h; sourceTree = "<group>"; };
+		AD1F94861D4D045F00F99FA6 /* FullViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullViewController.m; sourceTree = "<group>"; };
+		AD1F94871D4D045F00F99FA6 /* VideoPlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlayView.h; sourceTree = "<group>"; };
+		AD1F94881D4D045F00F99FA6 /* VideoPlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayView.m; sourceTree = "<group>"; };
+		D76D968793A3DDB6A5D3C1F0 /* Pods-yg_mediaDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yg_mediaDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-yg_mediaDemo/Pods-yg_mediaDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DEA9B5CE1D1A606F00BDF4EE /* yg_mediaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yg_mediaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA9B5D21D1A606F00BDF4EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEA9B5D41D1A606F00BDF4EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DEA9B5D51D1A606F00BDF4EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DEA9B5D71D1A606F00BDF4EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DEA9B5D81D1A606F00BDF4EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DEA9B5DB1D1A606F00BDF4EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEA9B5DD1D1A606F00BDF4EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEA9B5E01D1A606F00BDF4EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEA9B5E21D1A606F00BDF4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F64D28760AC365924F394C0E /* libPods-yg_mediaDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-yg_mediaDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEA9B5CB1D1A606F00BDF4EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889A02A8E1E1993AFC27174C /* libPods-yg_mediaDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D5780B1A46148671EE13C11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F64D28760AC365924F394C0E /* libPods-yg_mediaDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7B92BDDC104F0F2A7EB17CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F0BB2D5CC3B968609541C57 /* Pods-yg_mediaDemo.debug.xcconfig */,
+				D76D968793A3DDB6A5D3C1F0 /* Pods-yg_mediaDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD1F948C1D4D04F900F99FA6 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				1865DF141D514B7B0036744E /* bg_media_default@3x.png */,
+				1865DF151D514B7B0036744E /* full_minimize_btn_hl@2x.png */,
+				1865DF161D514B7B0036744E /* full_minimize_btn_hl@3x.png */,
+				1865DF171D514B7B0036744E /* full_pause_btn_hl@2x.png */,
+				1865DF181D514B7B0036744E /* full_pause_btn_hl@3x.png */,
+				1865DF191D514B7B0036744E /* full_play_btn_hl@2x.png */,
+				1865DF1A1D514B7B0036744E /* full_play_btn_hl@3x.png */,
+				1865DF1B1D514B7B0036744E /* MaximumTrackImage@2x.png */,
+				1865DF1C1D514B7B0036744E /* mini_launchFullScreen_btn_hl@2x.png */,
+				1865DF1D1D514B7B0036744E /* mini_launchFullScreen_btn_hl@3x.png */,
+				1865DF1E1D514B7B0036744E /* MinimumTrackImage@2x.png */,
+				1865DF1F1D514B7B0036744E /* thumbImage@2x.png */,
+				1865DF201D514B7B0036744E /* VideoPlayView.xib */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		DEA9B5C51D1A606F00BDF4EE = {
+			isa = PBXGroup;
+			children = (
+				DEA9B5D01D1A606F00BDF4EE /* yhb_VRMediaDemo */,
+				DEA9B5CF1D1A606F00BDF4EE /* Products */,
+				A7B92BDDC104F0F2A7EB17CE /* Pods */,
+				6D5780B1A46148671EE13C11 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DEA9B5CF1D1A606F00BDF4EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEA9B5CE1D1A606F00BDF4EE /* yg_mediaDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEA9B5D01D1A606F00BDF4EE /* yhb_VRMediaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				181BF6011D4D8D4F0004A2FF /* congo.mp4 */,
+				AD1F948C1D4D04F900F99FA6 /* resource */,
+				AD1F94851D4D045F00F99FA6 /* FullViewController.h */,
+				AD1F94861D4D045F00F99FA6 /* FullViewController.m */,
+				AD1F94871D4D045F00F99FA6 /* VideoPlayView.h */,
+				AD1F94881D4D045F00F99FA6 /* VideoPlayView.m */,
+				DEA9B5D41D1A606F00BDF4EE /* AppDelegate.h */,
+				DEA9B5D51D1A606F00BDF4EE /* AppDelegate.m */,
+				DEA9B5D71D1A606F00BDF4EE /* ViewController.h */,
+				DEA9B5D81D1A606F00BDF4EE /* ViewController.m */,
+				DEA9B5DA1D1A606F00BDF4EE /* Main.storyboard */,
+				DEA9B5DD1D1A606F00BDF4EE /* Assets.xcassets */,
+				DEA9B5DF1D1A606F00BDF4EE /* LaunchScreen.storyboard */,
+				DEA9B5E21D1A606F00BDF4EE /* Info.plist */,
+				DEA9B5D11D1A606F00BDF4EE /* Supporting Files */,
+			);
+			name = yhb_VRMediaDemo;
+			path = yg_mediaDemo;
+			sourceTree = "<group>";
+		};
+		DEA9B5D11D1A606F00BDF4EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEA9B5D21D1A606F00BDF4EE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEA9B5CD1D1A606F00BDF4EE /* yg_mediaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA9B5E51D1A606F00BDF4EE /* Build configuration list for PBXNativeTarget "yg_mediaDemo" */;
+			buildPhases = (
+				3763959C0F1EE0F9D50E3669 /* [CP] Check Pods Manifest.lock */,
+				DEA9B5CA1D1A606F00BDF4EE /* Sources */,
+				DEA9B5CB1D1A606F00BDF4EE /* Frameworks */,
+				DEA9B5CC1D1A606F00BDF4EE /* Resources */,
+				4747442424EB18D09794B086 /* [CP] Embed Pods Frameworks */,
+				12B2786DFF3F26F7A173E8FA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yg_mediaDemo;
+			productName = yg_mediaDemo;
+			productReference = DEA9B5CE1D1A606F00BDF4EE /* yg_mediaDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEA9B5C61D1A606F00BDF4EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = yg_self;
+				TargetAttributes = {
+					DEA9B5CD1D1A606F00BDF4EE = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2XV53X9VXU;
+					};
+				};
+			};
+			buildConfigurationList = DEA9B5C91D1A606F00BDF4EE /* Build configuration list for PBXProject "yg_mediaDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEA9B5C51D1A606F00BDF4EE;
+			productRefGroup = DEA9B5CF1D1A606F00BDF4EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEA9B5CD1D1A606F00BDF4EE /* yg_mediaDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEA9B5CC1D1A606F00BDF4EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1865DF2B1D514B7B0036744E /* MinimumTrackImage@2x.png in Resources */,
+				1865DF221D514B7B0036744E /* full_minimize_btn_hl@2x.png in Resources */,
+				1865DF241D514B7B0036744E /* full_pause_btn_hl@2x.png in Resources */,
+				1865DF2D1D514B7B0036744E /* VideoPlayView.xib in Resources */,
+				1865DF211D514B7B0036744E /* bg_media_default@3x.png in Resources */,
+				181BF6021D4D8D4F0004A2FF /* congo.mp4 in Resources */,
+				1865DF251D514B7B0036744E /* full_pause_btn_hl@3x.png in Resources */,
+				1865DF281D514B7B0036744E /* MaximumTrackImage@2x.png in Resources */,
+				1865DF2C1D514B7B0036744E /* thumbImage@2x.png in Resources */,
+				1865DF271D514B7B0036744E /* full_play_btn_hl@3x.png in Resources */,
+				1865DF2A1D514B7B0036744E /* mini_launchFullScreen_btn_hl@3x.png in Resources */,
+				DEA9B5E11D1A606F00BDF4EE /* LaunchScreen.storyboard in Resources */,
+				1865DF291D514B7B0036744E /* mini_launchFullScreen_btn_hl@2x.png in Resources */,
+				DEA9B5DE1D1A606F00BDF4EE /* Assets.xcassets in Resources */,
+				1865DF231D514B7B0036744E /* full_minimize_btn_hl@3x.png in Resources */,
+				1865DF261D514B7B0036744E /* full_play_btn_hl@2x.png in Resources */,
+				DEA9B5DC1D1A606F00BDF4EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12B2786DFF3F26F7A173E8FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yg_mediaDemo/Pods-yg_mediaDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3763959C0F1EE0F9D50E3669 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4747442424EB18D09794B086 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yg_mediaDemo/Pods-yg_mediaDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEA9B5CA1D1A606F00BDF4EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA9B5D91D1A606F00BDF4EE /* ViewController.m in Sources */,
+				AD1F948B1D4D045F00F99FA6 /* VideoPlayView.m in Sources */,
+				AD1F948A1D4D045F00F99FA6 /* FullViewController.m in Sources */,
+				DEA9B5D61D1A606F00BDF4EE /* AppDelegate.m in Sources */,
+				DEA9B5D31D1A606F00BDF4EE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DEA9B5DA1D1A606F00BDF4EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEA9B5DB1D1A606F00BDF4EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEA9B5DF1D1A606F00BDF4EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEA9B5E01D1A606F00BDF4EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEA9B5E31D1A606F00BDF4EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DEA9B5E41D1A606F00BDF4EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEA9B5E61D1A606F00BDF4EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F0BB2D5CC3B968609541C57 /* Pods-yg_mediaDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = yg_mediaDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huuib55bw1.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		DEA9B5E71D1A606F00BDF4EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D76D968793A3DDB6A5D3C1F0 /* Pods-yg_mediaDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = yg_mediaDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huuib55bw1.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEA9B5C91D1A606F00BDF4EE /* Build configuration list for PBXProject "yg_mediaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA9B5E31D1A606F00BDF4EE /* Debug */,
+				DEA9B5E41D1A606F00BDF4EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEA9B5E51D1A606F00BDF4EE /* Build configuration list for PBXNativeTarget "yg_mediaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA9B5E61D1A606F00BDF4EE /* Debug */,
+				DEA9B5E71D1A606F00BDF4EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEA9B5C61D1A606F00BDF4EE /* Project object */;
+}

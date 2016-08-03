@@ -1,0 +1,7 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, "9.0"
+
+
+target :yg_mediaDemo do
+    pod 'GVRSDK', '~> 0.8.5'
+end
