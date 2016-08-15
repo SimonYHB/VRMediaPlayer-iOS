@@ -196,4 +196,12 @@
 //-(void)widgetView:(GVRWidgetView *)widgetView didFailToLoadContent:(id)content withErrorMessage:(NSString *)errorMessage{
 //    NSLog(@"加载内容失败");
 //}
+
+- (void)dealloc{
+    _videoPlayerView.delegate = nil;
+    //销毁时将资源释放
+    [_videoPlayerView loadFromUrl:nil];
+    NSLog(@"dealloc%@",NSStringFromClass(self.class));
+}
+
 @end
